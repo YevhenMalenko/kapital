@@ -2135,6 +2135,7 @@ html.boxed .body {
         line-height: 20px;
         font-size: 12px;
         color: #999999;
+        display: inline-block;
     }
     footer.footer .ftop .adress li i {
         position: absolute;
@@ -4208,6 +4209,8 @@ html.boxed .body {
     .palovit-tab .tab-content {
         border: 1px solid #eee;
     }
+
+    /* ----------- custom styles -------------- */
     .main-screen {
         height: 100vh;
         background-image: url(../img/main-bg.jpg);
@@ -4240,6 +4243,22 @@ html.boxed .body {
     }
     .services-desc {
         min-height: 72px;
+        color: #fff;
+    }
+    .services_title {
+        color: #fff;
+    }
+    .btn.btn-arrow.btn-services {
+        color: #fff;
+    }
+    .bg-dark {
+        background-image: url(../img/bg-dark.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0px 100%;
+    }
+    .logo img {
+        width: 152px;
     }
 
     /*------------------------ 11 Responsive ------------------------*/
@@ -4271,7 +4290,7 @@ html.boxed .body {
             font-size: 20px;
             border: none;
             margin: 25px 0;
-            color: #fea600;
+            color: #c64e44;;
         }
         .ms-fullscreen-template {
             min-height: inherit;
@@ -4451,6 +4470,22 @@ html.boxed .body {
         .main article.page-404 div h2 {
             font-size: 18px;
         }
+        .bg-dark {
+            background-image: none;
+        }
+        .services-desc {
+            color: #6b6b6b;
+            min-height: auto;
+        }
+        .services_title {
+            color: #282828;
+        }
+        .btn.btn-arrow.btn-services {
+            color: #282828;
+        }
+        .services-item {
+            margin-bottom: 25px;
+        }
     }
     @media (max-width: 767px) {
         .header.radius_topmenu_nav {
@@ -4484,6 +4519,10 @@ html.boxed .body {
         }
         .nav-tabs>li a {
             width: 100%;
+        }
+        .main-h2 {
+            font-size: 36px;
+            line-height: 48px;
         }
     }
 
