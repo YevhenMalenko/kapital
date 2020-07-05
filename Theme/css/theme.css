@@ -2231,7 +2231,7 @@ html.boxed .body {
     }
     /*------------------------ 6 Pages ------------------------*/
     .main section.header-page {
-        background: url('../img/construction_tr.jpg') no-repeat center center fixed;
+        background: url('../img/main-bg.jpg') no-repeat center center fixed;
         padding: 150px 0 100px 0;
         background-size: cover;
         position: relative;
@@ -4270,6 +4270,23 @@ html.boxed .body {
     }
     .logo img {
         width: 152px;
+    }
+    .advantage-item {
+        min-height: 72.8px;
+    }
+    .advantage-icon {
+        width: 100%;
+    }
+    .advantage-item h4 {
+        margin-left: 10px;
+    }
+    ul.services-category li a {
+        padding: 9px 13px;
+    }
+    .services-img {
+        width: 260px;
+        height: 195px;
+        object-fit: cover;
     }
 
     /*------------------------ 11 Responsive ------------------------*/
