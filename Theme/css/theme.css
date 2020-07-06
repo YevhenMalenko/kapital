@@ -4272,7 +4272,7 @@ html.boxed .body {
         width: 152px;
     }
     .advantage-item {
-        min-height: 72.8px;
+        min-height: 50px;
     }
     .advantage-icon {
         width: 100%;
@@ -4287,6 +4287,15 @@ html.boxed .body {
         width: 260px;
         height: 195px;
         object-fit: cover;
+    }
+    .main article.services-detail .advantage-item div:first-child {
+        width: 35px;
+    }
+    .main article.services-detail .advantage-item div:last-child {
+        width: 88%;
+    }
+    .main article.services-detail .advantage-item div h4 {
+        margin-top: 12px;
     }
 
     /*------------------------ 11 Responsive ------------------------*/
@@ -4513,6 +4522,9 @@ html.boxed .body {
         }
         .services-item {
             margin-bottom: 25px;
+        }
+        .main article.services-detail .advantage-item div h4 {
+            margin-top: 2px;
         }
     }
     @media (max-width: 767px) {
