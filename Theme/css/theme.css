@@ -4526,6 +4526,10 @@ html.boxed .body {
         .main article.services-detail .advantage-item div h4 {
             margin-top: 2px;
         }
+        .services-img {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     @media (max-width: 767px) {
         .header.radius_topmenu_nav {
